@@ -1,0 +1,29 @@
+(window.wpJsonpDPX=window.wpJsonpDPX||[]).push([[46],{339:function(t,e,s){"use strict";s.r(e),s.d(e,"default",(function(){return f}));var n=s(1),a=s(0),i=s(3),o=s(6),c=s(5);let r,l,d,b,h,u,p,v=t=>t,f=(r=Object(a.a)("pp-process"),r(l=class extends n.a{constructor(){super(),this._children=Object(i.b)(this,["pp-process-element","html-collection"]),this.tabId=Object(o.e)()}async firstUpdated(){const{default:t}=await s.e(2).then(s.t.bind(null,149,7));this.bootstrapTab=t,this.setActiveClasses(),this.querySelectorAll(".js-tab").forEach(t=>{t.addEventListener("shown.bs.tab",this.dispatchChangeEvent.bind(this))})}dispatchChangeEvent(t){const e=new CustomEvent(c.s,{detail:t.target.dataset.index});window.dispatchEvent(e)}setActiveClasses(){this.querySelector(".js-tab-content").classList.add("active","show");this.querySelector(".js-tab").classList.add("active")}get tabList(){var t;return Object(n.b)(d||(d=v`
+            <div class="flex flex-col lg:flex-row nav justify-center items-center lg:items-start mb-40" role="tablist">
+                ${0}
+            </div>
+        `),[...null===(t=this._children)||void 0===t?void 0:t["pp-process-element"]].map((t,e)=>Object(n.b)(b||(b=v`
+                    <button type="button" 
+                            class="js-tab group hover:underline focus:underline focus-within:outline-deepsapphire focus-within:-outline-offset-1 focus-within:outline-1"
+                            data-bs-toggle="tab"
+                            role="tab"
+                            data-bs-target="#tab-content-${0}-${0}"
+                            aria-controls="tab-content-${0}-${0}"
+                            data-index="${0}"
+                    >
+                        ${0}
+                    </button>
+                `),this.tabId,e,this.tabId,e,e,t)))}get tabContent(){var t;return Object(n.b)(h||(h=v`
+            <div class="tab-content container">
+                ${0}
+            </div>
+        `),[...null===(t=this._children)||void 0===t?void 0:t["html-collection"]].map((t,e)=>Object(n.b)(u||(u=v`
+                    <div class="js-tab-content tab-pane fade bg-white py-40 px-64" role="tabpanel" id="tab-content-${0}-${0}" tabindex="0">
+                        ${0}
+                    </div>
+                `),this.tabId,e,t)))}render(){return Object(n.b)(p||(p=v`
+            <div class="relative w-screen left-breakout">
+                ${0}
+                ${0}
+             </div>
+        `),this.tabList,this.tabContent)}createRenderRoot(){return this}})||l)}}]);

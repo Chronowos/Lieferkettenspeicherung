@@ -1,0 +1,43 @@
+/*! For license information please see pp-background-container.js.LICENSE.txt */
+(window.wpJsonpDPX=window.wpJsonpDPX||[]).push([[13],{100:function(e,t,i){"use strict";i.d(t,"a",(function(){return o})),i.d(t,"b",(function(){return a}));var n=i(9);const r=Symbol.for(""),l=e=>{if((null==e?void 0:e.r)===r)return null==e?void 0:e._$litStatic$},a=(e,...t)=>({_$litStatic$:t.reduce((t,i,n)=>t+(e=>{if(void 0!==e._$litStatic$)return e._$litStatic$;throw Error(`Value passed to 'literal' function must be a 'literal' result: ${e}. Use 'unsafeStatic' to pass non-literal values, but\n            take care to ensure page security.`)})(i)+e[n+1],e[0]),r:r}),c=new Map,s=e=>(t,...i)=>{const n=i.length;let r,a;const s=[],o=[];let u,d=0,b=!1;for(;d<n;){for(u=t[d];d<n&&void 0!==(a=i[d],r=l(a));)u+=r+t[++d],b=!0;o.push(a),s.push(u),d++}if(d===n&&s.push(t[n]),b){const e=s.join("$$lit$$");void 0===(t=c.get(e))&&(s.raw=s,c.set(e,t=s)),i=o}return e(t,...i)},o=s(n.b);s(n.f)},321:function(e,t,i){"use strict";i.r(t),i.d(t,"default",(function(){return P}));var n=i(100),r=i(1),l=i(0),a=i(3),c=i(2),s=i(20);let o,u,d,b,h,v,p,f,g,m,$,w,y,j,O=e=>e;function _(e,t,i,n){i&&Object.defineProperty(e,t,{enumerable:i.enumerable,configurable:i.configurable,writable:i.writable,value:i.initializer?i.initializer.call(n):void 0})}function z(e,t,i){return(t=function(e){var t=function(e,t){if("object"!=typeof e||null===e)return e;var i=e[Symbol.toPrimitive];if(void 0!==i){var n=i.call(e,t||"default");if("object"!=typeof n)return n;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===t?String:Number)(e)}(e,"string");return"symbol"==typeof t?t:String(t)}(t))in e?Object.defineProperty(e,t,{value:i,enumerable:!0,configurable:!0,writable:!0}):e[t]=i,e}function S(e,t,i,n,r){var l={};return Object.keys(n).forEach((function(e){l[e]=n[e]})),l.enumerable=!!l.enumerable,l.configurable=!!l.configurable,("value"in l||l.initializer)&&(l.writable=!0),l=i.slice().reverse().reduce((function(i,n){return n(e,t,i)||i}),l),r&&void 0!==l.initializer&&(l.value=l.initializer?l.initializer.call(r):void 0,l.initializer=void 0),void 0===l.initializer&&(Object.defineProperty(e,t,l),l=null),l}let P=(o=Object(l.a)("pp-background-container"),u=Object(l.b)({type:String}),d=Object(l.b)({type:Boolean,attribute:"is-aside"}),o((h=class extends s.a{constructor(){super(),_(this,"theme",v,this),_(this,"isAside",p,this),z(this,"tag",Object(n.b)(f||(f=O`div`))),this._children=Object(a.b)(this,["html-collection","html-collection-smaller","pp-headline","pp-list"])}get containerClasses(){return{"bg-white":"primary"===this.theme,"bg-color-2":"secondary"===this.theme}}get headline(){return null!=this&&this._children["pp-headline"]?Object(n.a)(g||(g=O`
+                <div class="container qs-headline-container">
+                     <div class="row">
+                         <div class="col-12 mb-40 text-center">
+                             <div class="text-deepsapphire rounded-br-12 bg-no-repeat no-underline bg-100100 bg-clip-content bg-clip-border bg-gradient-underline typ-heading-2 underline-effect-general underline-effect-general--static">
+                                 ${0}
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            `),null==this?void 0:this._children["pp-headline"]):r.c}get buttons(){return null!=this&&this._children["pp-list"]?Object(n.a)(m||(m=O`
+                <div class="container qs-button-container">
+                     <div class="row">
+                         <div class="col-12">
+                             ${0}
+                         </div>
+                     </div>
+                </div>
+            `),null==this?void 0:this._children["pp-list"]):r.c}get smallerContent(){return this._children["html-collection-smaller"]?Object(n.a)($||($=O`
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 lg:col-8 mx-auto">
+                        ${0}
+                    </div>
+                </div>
+            </div>
+        `),this._children["html-collection-smaller"]):r.c}get content(){return this._children["html-collection"]?Object(n.a)(w||(w=O`
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-40">
+                        ${0}
+                    </div>
+                </div>
+            </div>
+        `),this._children["html-collection"]):r.c}render(){return this.isAside&&(this.tag=Object(n.b)(y||(y=O`aside`))),Object(n.a)(j||(j=O`
+            <${0} class="qs-background-container relative left-breakout w-screen py-64 ${0}">
+                ${0}
+                ${0}
+                ${0}
+                ${0}
+            </${0}>
+        `),this.tag,Object(c.a)(this.containerClasses),this.headline,this.smallerContent,this.content,this.buttons,this.tag)}},v=S(h.prototype,"theme",[u],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return"primary"}}),p=S(h.prototype,"isAside",[d],{configurable:!0,enumerable:!0,writable:!0,initializer:null}),b=h))||b)}}]);

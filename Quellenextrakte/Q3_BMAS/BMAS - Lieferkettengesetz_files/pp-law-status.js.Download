@@ -1,0 +1,33 @@
+(window.wpJsonpDPX=window.wpJsonpDPX||[]).push([[38],{335:function(t,e,l){"use strict";l.r(e),l.d(e,"default",(function(){return w}));var s=l(1),i=l(0),a=l(3),n=l(20);let r,c,d,u,o,p,b,h,v=t=>t,w=(r=Object(i.a)("pp-law-status"),r(c=class extends n.a{constructor(){var t;super(),this._children=Object(a.b)(this,["pp-process-element","pp-headline","pp-text-with-icon"]),this._lawStatusItem=null===(t=this._children)||void 0===t?void 0:t["pp-process-element"]}get headlineTmpl(){return Object(s.b)(d||(d=v`
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-40 text-center">
+                        <div class="text-deepsapphire rounded-br-12 bg-no-repeat no-underline bg-100100 bg-clip-content
+                                    bg-gradient-underline typ-heading-2 underline-effect-general underline-effect-general--static">
+                            ${0}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `),null==this?void 0:this._children["pp-headline"])}get moreInfoLawStatusTmpl(){return null!=this&&this._children["pp-text-with-icon"]?Object(s.b)(u||(u=v`<div class="col-12 lg:col-8 lg:mx-auto pt-20 border-t-2 border-morning-glory flex justify-center pb-40">${0}</div>`),null==this?void 0:this._children["pp-text-with-icon"]):s.c}get lawStatusItem(){return this._lawStatusItem.length>1?Object(s.b)(o||(o=v`
+                <ul class="qs-law-status col-12 flex flex-wrap justify-center w-full mb-40 lg:mb-80">
+                    ${0}
+                </ul>`),this._lawStatusItem.map(t=>Object(s.b)(p||(p=v`
+                        <li class="basis-full flex lg:basis-auto">${0}</li>
+                    `),t))):Object(s.b)(b||(b=v`
+            <div class="qs-law-status col-12 flex flex-wrap justify-center w-full mb-40 lg:mb-80">
+                <div class="basis-full flex lg:basis-auto">${0}</div>
+            </div>
+            `),this._lawStatusItem)}render(){return Object(s.b)(h||(h=v`
+            <div class="relative left-breakout w-screen">
+                <div class="col-12 mt-20 bg-black-squeeze pt-40 mb-40 lg:mb-64">
+                    ${0}
+                    <div class="container">
+                        <div class="row">
+                            ${0}
+                        </div>
+                        ${0}
+                    </div>
+                </div>
+            </div>
+        `),this.headlineTmpl,this.lawStatusItem,this.moreInfoLawStatusTmpl)}})||c)}}]);
